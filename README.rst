@@ -2,7 +2,7 @@
 cookiecutter-charlesbot-plugin
 ==============================
 
-.. image:: https://img.shields.io/travis/marvinpinto/cookiecutter-charlesbot-plugin.svg
+.. image:: https://travis-ci.org/marvinpinto/cookiecutter-charlesbot-plugin.svg?branch=master
    :target: https://travis-ci.org/marvinpinto/cookiecutter-charlesbot-plugin
 
 Cookiecutter template to quickly get you on your way to building a Charlesbot_

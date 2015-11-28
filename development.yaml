@@ -1,0 +1,7 @@
+main:
+  slackbot_token: 'xoxb-...'
+  enabled_plugins:
+    - '{{ cookiecutter.package_name }}.{{ cookiecutter.package_name|lower }}.{{ cookiecutter.plugin_name }}
+
+{{cookiecutter.plugin_name|lower}}:
+  config_key: 'config value'

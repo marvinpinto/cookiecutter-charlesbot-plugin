@@ -16,7 +16,7 @@ test_requirements = [
 ]
 
 setup(
-    name='{{ cookiecutter.plugin_name }}',
+    name='{{ cookiecutter.repo_name }}',
     version='{{ cookiecutter.version }}',
     description="{{ cookiecutter.project_short_description }}",
     long_description=readme,
@@ -32,7 +32,7 @@ setup(
     install_requires=requirements,
     license="MIT",
     zip_safe=False,
-    keywords='slack robot chatops charlesbot {{ cookiecutter.plugin_name }}',
+    keywords='slack robot chatops charlesbot {{ cookiecutter.repo_name }}',
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',

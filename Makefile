@@ -13,10 +13,10 @@ help:
 clean:
 	py3clean .
 	find . -name "__pycache__" -exec /bin/rm -rf {} \;
+	rm -rf charlesbot-helloworld
 
 clean-all: clean
 	rm -rf env
-	rm -rf charlesbot_helloworld
 
 env: clean
 	test -d $(ENV) || pyvenv-3.4 $(ENV)
@@ -26,5 +26,5 @@ install: env
 
 test: install
 	$(ENV)/bin/cookiecutter . --no-input
-	make -C charlesbot_helloworld checkstyle
-	make -C charlesbot_helloworld test
+	make -C charlesbot-helloworld checkstyle
+	make -C charlesbot-helloworld test

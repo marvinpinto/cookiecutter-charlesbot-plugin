@@ -44,3 +44,5 @@ docs/_build
 # Cookiecutter
 output/
 boilerplate/
+charlesbot-helloworld/
+env/

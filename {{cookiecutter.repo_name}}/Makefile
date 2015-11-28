@@ -53,4 +53,4 @@ run:
 # e.g. PART=minor make release
 # e.g. PART=patch make release
 release: guard-PART
-  $(ENV)/bin/bumpversion $(PART)
+	$(ENV)/bin/bumpversion $(PART)

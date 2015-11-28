@@ -1,6 +1,5 @@
 from charlesbot.base_plugin import BasePlugin
 from charlesbot.config import configuration
-from charlesbot.util.parse import does_msg_contain_prefix
 import asyncio
 
 

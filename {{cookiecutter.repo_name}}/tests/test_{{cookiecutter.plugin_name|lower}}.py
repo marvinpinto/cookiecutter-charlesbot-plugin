@@ -1,7 +1,5 @@
 import asynctest
-
-from {{ cookiecutter.package_name }} import {{ cookiecutter.plugin_name }}
-
+from {{ cookiecutter.package_name|lower }}.{{cookiecutter.plugin_name|lower}} import {{ cookiecutter.plugin_name }}
 
 class Test{{cookiecutter.plugin_name}}(asynctest.TestCase):
 

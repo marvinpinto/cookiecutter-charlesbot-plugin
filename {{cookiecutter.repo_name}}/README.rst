@@ -23,6 +23,7 @@ How does this work
 This plugin adds the following ``!help`` targets:
 
 .. code:: text
+
     !command - Do a thing!
 
 TODO: Fill in a description about what this plugin does and how it works.
@@ -36,7 +37,7 @@ Installation
 
     pip install {{ cookiecutter.repo_name }}
 
-Instructions for how to run Charlesbot are over at https://github.com/marvinpinto/charlesbot!
+Instructions for how to run Charlesbot are over at https://github.com/marvinpinto/charlesbot.
 
 
 Configuration
